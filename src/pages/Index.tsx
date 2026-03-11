@@ -90,9 +90,7 @@ export default function Index() {
             <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-none mb-6">
               ЗАПИСИ
               <br />
-              ВОРК-
-              <br />
-              ШОПОВ
+              ВОРКШОПОВ
             </h1>
             <p className="text-xl max-w-xl mb-10">
               Для IT-специалистов, которые хотят развивать карьеру — без смены работы и переработок.
