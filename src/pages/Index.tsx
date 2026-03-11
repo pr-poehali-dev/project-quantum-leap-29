@@ -44,6 +44,7 @@ export default function Index() {
       oldPrice: null,
       price: "2 990 ₽",
       highlight: false,
+      url: "https://algo-base.ru/buy-intensive-03-2026",
     },
     {
       label: "ВСЁ ВКЛЮЧЕНО",
@@ -56,6 +57,7 @@ export default function Index() {
       oldPrice: "10 970 ₽",
       price: "3 990 ₽",
       highlight: true,
+      url: "https://algo-base.ru/three_workshops",
     },
   ];
 
@@ -184,15 +186,18 @@ export default function Index() {
                   )}
                   <span className="text-4xl font-bold tracking-tighter">{t.price}</span>
                 </div>
-                <button
-                  className={`w-full py-4 text-sm uppercase tracking-widest font-bold transition-colors duration-300 ${
+                <a
+                  href={t.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`w-full py-4 text-sm uppercase tracking-widest font-bold transition-colors duration-300 text-center block ${
                     t.highlight
                       ? "bg-red-600 text-white hover:bg-red-700"
                       : "bg-black text-white hover:bg-red-600"
                   }`}
                 >
                   Купить
-                </button>
+                </a>
               </div>
             ))}
           </div>
