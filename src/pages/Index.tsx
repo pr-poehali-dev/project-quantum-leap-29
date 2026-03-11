@@ -87,10 +87,9 @@ export default function Index() {
             <div className="inline-block bg-red-600 text-white text-sm uppercase tracking-widest px-3 py-1 mb-6">
               3 воркшопа по цене одного
             </div>
-            <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-none mb-6">
-              ЗАПИСИ
-              <br />
-              ВОРКШОПОВ
+            <h1 className="font-bold tracking-tighter leading-none mb-6">
+              <span className="block text-6xl md:text-8xl">ЗАПИСИ</span>
+              <span className="block text-4xl md:text-6xl">ВОРКШОПОВ</span>
             </h1>
             <p className="text-xl max-w-xl mb-10">
               Для IT-специалистов, которые хотят развивать карьеру — без смены работы и переработок.
