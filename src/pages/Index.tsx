@@ -67,7 +67,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
         <div className="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
           <a href="/" className="text-xl font-bold tracking-tighter">
-            КАРЬЕРА
+            ВЫШЕ ВИЛКИ
           </a>
           <div className="flex space-x-8">
             <a href="#workshops" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
@@ -207,10 +207,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="py-10 px-4 md:px-8 bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <span className="text-xl font-bold tracking-tighter">КАРЬЕРА</span>
-          <span className="text-neutral-500 text-sm uppercase tracking-widest">
-            © {new Date().getFullYear()} — Воркшопы для IT-специалистов
-          </span>
+          <span className="text-xl font-bold tracking-tighter">ВЫШЕ ВИЛКИ</span>
         </div>
       </footer>
     </main>
